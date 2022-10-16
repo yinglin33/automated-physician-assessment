@@ -172,3 +172,27 @@ p {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.score-circle {
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  height: 100px;
+
+  text-align: center;
+  border: 2px solid rgba(76, 95, 195, 60%);
+  border-radius: 100%;
+}
+
+.score-num {
+  padding-top: 10px;
+  font-size: 24pt;
+  font-weight: 600;
+}
+
+.entry-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -57,7 +57,7 @@ function App() {
             <div class='new-instance-button'> + NEW</div>
           </div>
 
-          <div className='assessment-data'>
+          <div className='assessment-data'> 
             {assessmentData.map((entries) => (
               <AssessmentEntry entries={entries}> </AssessmentEntry>))}
           </div>
