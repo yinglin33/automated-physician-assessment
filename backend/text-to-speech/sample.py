@@ -12,7 +12,7 @@ audio = speech.RecognitionAudio(uri=gcs_uri)
 
 config = speech.RecognitionConfig(
     encoding=speech.RecognitionConfig.AudioEncoding.LINEAR16,
-    sample_rate_hertz=16000,
+    sample_rate_hertz=16000,om
     language_code="en-US",
 )
 
