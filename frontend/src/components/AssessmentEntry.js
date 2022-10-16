@@ -8,7 +8,7 @@ const AssessmentEntry = ({entries}) => {
         <div className="assessmentEntryData">
             <div> {entries.date} </div>
             <div> {entries.name} </div>
-            <a className="view-assessment" href='./Entry.js'> VIEW </a>
+            <a className="view-assessment" href='./Entry'> VIEW </a>
         </div>
     );
 };

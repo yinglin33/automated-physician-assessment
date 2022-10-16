@@ -2,7 +2,16 @@
   font-family: 'Raleway', 'sans-serif';
 }
 .student-image {
-  width: 100px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 h1 {
@@ -12,6 +21,30 @@ h1 {
 h2 {
   font-size: 16pt;
   font-weight: 600;
+}
+
+h3 {
+  font-size: 16pt;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 14pt;
+  font-weight: 600pt;
+  margin: 5px;
+}
+
+p {
+  margin: 5px;
+  font-weight: 14pt;
+}
+
+.student-profile {
+  margin: 50px auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .student-id {
@@ -81,3 +114,61 @@ h2 {
   border-radius: 5px;
 }
 
+.entry-body {
+  width: 90%;
+  margin: 50pt auto;
+}
+
+.back-button {
+  width: 120px;
+  font-size: 16pt;
+  font-weight: 600;
+  color: #4C5FC3;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid rgba(76, 95, 195, 60%);
+  border-radius: 30px;
+}
+
+.entry-field {
+  border: 2px solid rgba(76, 95, 195, 60%);
+  border-radius: 5px;
+
+  padding: 10px 15px;
+  margin-top: 25px;
+}
+
+.score {
+  border: 2px solid rgba(76, 95, 195, 60%);
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 150px;
+}
+
+.score-circle {
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  height: 100px;
+
+  text-align: center;
+  border: 2px solid rgba(76, 95, 195, 60%);
+  border-radius: 100%;
+}
+
+.score-num {
+  padding-top: 10px;
+  font-size: 24pt;
+  font-weight: 600;
+}
+
+.entry-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

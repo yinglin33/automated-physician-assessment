@@ -1,11 +1,13 @@
 import './App.css';
 import logo from './logo.svg'
 import React, {useState} from 'react';
-// import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import StudentProfile from './components/StudentProfile'
 import AssessmentEntry from './components/AssessmentEntry'
 import AssessmentData from './components/AssessmentData'
 import Entry from './components/Entry'
+import Pradeep from './pradeep.jpeg'
+
 // import axios from 'axios';
 
 const assessmentData = AssessmentData.assessments.entries;
@@ -42,12 +44,12 @@ function App() {
           <input type="file" onChange={handleChange}/>
           <button type="submit">Upload</button>
         </form> */}
-      {/* <Router>
+      <Router>
         <Routes>
-          <Route path='components/Entry' />
+          <Route path='/Entry' element={<Entry/>}/>
         </Routes>
-      </Router> */}
-        <StudentProfile image={logo} name="Pradeep Mani Rathnam" id="123456789"></StudentProfile>
+      </Router>
+        <StudentProfile image={Pradeep} name="Pradeep Mani Rathnam" id="123456789"></StudentProfile>
         <div className='assessment-table'>
           <div className='assessment-table-header'>
             <h2> Date of Assessment </h2>
