@@ -5,7 +5,7 @@ const AssessmentEntry = ({entries}) => {
         <div className="assessmentEntryData">
             <div> {entries.date} </div>
             <div> {entries.name} </div>
-            <a className="view-assessment" href={entries.url}> VIEW </a>
+            <a className="view-assessment" href='instagram.com'> VIEW </a>
         </div>
     );
 };

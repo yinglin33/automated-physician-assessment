@@ -7,13 +7,14 @@ import Result from './pages/result'
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route exact path='/' element={<Home/>} />
-        <Route path='/result' element={<Result/>} />
-      </Routes>
-    </Router>
+    <Home />
+    // <Router>
+    //   <Navbar />
+    //   <Routes>
+    //     <Route exact path='/' element={<Home/>} />
+    //     <Route path='/result' element={<Result/>} />
+    //   </Routes>
+    // </Router>
   );
 }
 

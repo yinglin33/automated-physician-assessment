@@ -1,17 +1,17 @@
+import React from 'react';
 import logo from '../logo.svg'
 import StudentProfile from '../assets/StudentProfile'
 import AssessmentEntry from '../assets/AssessmentEntry'
 import AssessmentData from '../assets/AssessmentData'
 import '../App.css';
 
-const assessmentData = AssessmentData.assessments.entries
-
 
 const Home = () => {
+  const assessmentData = AssessmentData.assessments.entries;
   return (
-    <div className="App">
-      <header className="Automated Physician Assessment">
-        <StudentProfile image={logo} name="Pradeep Mani Rathnam" id="123456789"></StudentProfile>
+    <div>
+      {/* <header className="Automated Physician Assessment"> */}
+      <StudentProfile image={logo} name="Pradeep Mani Rathnam" id="123456789"></StudentProfile>
 
       <div className='assessment-table'>
         <div className='assessment-table-header'>
@@ -26,9 +26,9 @@ const Home = () => {
         </div>
       </div>
         
-      </header>
+      {/* </header> */}
     </div>
   );
-}
+};
 
 export default Home;
