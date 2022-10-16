@@ -1,0 +1,174 @@
+* {
+  font-family: 'Raleway', 'sans-serif';
+}
+.student-image {
+  width: 150px;
+  border-radius: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 20pt;
+}
+
+h2 {
+  font-size: 16pt;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 16pt;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 14pt;
+  font-weight: 600pt;
+  margin: 5px;
+}
+
+p {
+  margin: 5px;
+  font-weight: 14pt;
+}
+
+.student-profile {
+  margin: 50px auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.student-id {
+  font-size: 16pt;
+}
+
+.assessment-table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.assessment-table-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  text-align: left;
+}
+
+.new-instance-button {
+  font-size: 12pt;
+  font-weight: 600;
+
+  padding: 10px 15px;
+
+  background-color: #4C5FC3;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.assessmentEntryData {
+  font-size: 16pt;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+
+  text-align: left;
+
+  height: 60px;
+}
+.assessmentEntryData:nth-child(even) {
+  background-color: #FFFFFF;
+}
+
+.assessmentEntryData:nth-child(odd) {
+  background-color: #EDEDED;
+}
+
+.assessmentEntryData:first-child {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.assessmentEntryData:last-child {
+  border-radius: 0px 0px 5px 5px;
+}
+
+.assessment-data {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 2px solid rgba(76, 95, 195, 60%);
+  border-radius: 5px;
+}
+
+.entry-body {
+  width: 90%;
+  margin: 50pt auto;
+}
+
+.back-button {
+  width: 120px;
+  font-size: 16pt;
+  font-weight: 600;
+  color: #4C5FC3;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid rgba(76, 95, 195, 60%);
+  border-radius: 30px;
+}
+
+.entry-field {
+  border: 2px solid rgba(76, 95, 195, 60%);
+  border-radius: 5px;
+
+  padding: 10px 15px;
+  margin-top: 25px;
+}
+
+.score {
+  border: 2px solid rgba(76, 95, 195, 60%);
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 150px;
+}
+
+.score-circle {
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  height: 100px;
+
+  text-align: center;
+  border: 2px solid rgba(76, 95, 195, 60%);
+  border-radius: 100%;
+}
+
+.score-num {
+  padding-top: 10px;
+  font-size: 24pt;
+  font-weight: 600;
+}
+
+.entry-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
